@@ -3,12 +3,17 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
+    // define a src set of files for other tasks
+    src: {
+      files: ['Gruntfile.js', 'index.js', 'test/*.js']
+    },
+
     // linting
     jshint: {
       options: {
         jshintrc: '.jshintrc'
       },
-      all: ['Gruntfile.js', 'index.js', 'test/*.js']
+      all: '<%= src.files %>'
     },
 
     // testing
@@ -24,7 +29,7 @@ module.exports = function(grunt) {
     // code metrics
     complexity: {
       generic: {
-        src: ['Gruntfile.js', 'index.js', 'test/*.js'],
+        src: '<%= src.files %>',
         options: {
           cyclomatic: 4,
           halstead: 20,
