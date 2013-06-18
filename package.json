@@ -10,7 +10,7 @@
   "dependencies": {
     "node-uuid": "~1.4.0",
     "q": "~0.9.6",
-    "chai": "~1.6.1"
+    "chai": "~1.7.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
