@@ -18,3 +18,7 @@ dalek-internal-assertions
 [Homepage](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
 
 ![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dalekjs/dalek-internal-assertions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
