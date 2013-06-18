@@ -2,6 +2,7 @@ dalek-internal-assertions
 =========================
 
 DalekJS internal module for assertions
+![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
 
 [![Build Status](https://travis-ci.org/dalekjs/dalek-internal-assertions.png)](https://travis-ci.org/dalekjs/dalek-internal-assertions)
 [![Dependency Status](https://david-dm.org/dalekjs/dalek-internal-assertions.png)](https://david-dm.org/dalekjs/dalek-internal-assertions)
