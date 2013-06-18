@@ -15,7 +15,7 @@ module.exports = function(grunt) {
     },
 
     // clean coverage helper file
-    clean: ['coverage', 'report'],
+    clean: ['coverage', 'report', 'report.zip'],
 
     // linting
     jshint: {
@@ -78,6 +78,18 @@ module.exports = function(grunt) {
           outdir: 'report/api'
         }
       }
+    },
+
+    // compress artifacts
+    compress: {
+      main: {
+        options: {
+          archive: 'report.zip'
+        },
+        files: [
+          {src: ['report/**'], dest: '/'}
+        ]
+      }
     }
 
   });
@@ -107,6 +119,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-yuidoc');
+  grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-mocha-test');
   grunt.loadNpmTasks('grunt-complexity');
   grunt.loadNpmTasks('grunt-plato');
@@ -114,5 +127,5 @@ module.exports = function(grunt) {
   // define runner tasks
   grunt.registerTask('lint', 'jshint');
   grunt.registerTask('test', ['clean', 'prepare', 'lint', 'mochaTest', 'complexity']);
-  grunt.registerTask('docs', ['clean', 'prepare', 'mochaTest', 'plato', 'yuidoc']);
+  grunt.registerTask('docs', ['clean', 'prepare', 'mochaTest', 'plato', 'yuidoc', 'compress']);
 };
