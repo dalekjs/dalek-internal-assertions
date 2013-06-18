@@ -10,11 +10,11 @@ dalek-internal-assertions
 
 ## Ressources
 
-[API Documentation](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
-[Code coverage](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
-[Code complexity](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
-[Contributing](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
-[License](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
+[API Documentation](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
+[Code coverage](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
+[Code complexity](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
+[Contributing](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
+[License](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
 [Homepage](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
 
 ![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
