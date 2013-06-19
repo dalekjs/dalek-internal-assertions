@@ -58,5 +58,5 @@ Google Groups mailing list.
 
 Copyright (c) 2013 Sebastian Golasch
 
-Distributed under [MIT license](https://github.com/dalekjs/dalek-internal-assertions/blob/master/LICENSE-MIT.
+Distributed under [MIT license](https://github.com/dalekjs/dalek-internal-assertions/blob/master/LICENSE-MIT)
 
