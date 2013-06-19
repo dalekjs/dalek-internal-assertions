@@ -80,6 +80,16 @@ module.exports = function(grunt) {
       }
     },
 
+    // user docs
+    documantix: {
+      options: {
+        header: 'dalekjs/dalekjs.com/master/assets/header.html',
+        footer: 'dalekjs/dalekjs.com/master/assets/footer.html',
+        target: 'report/docs'
+      },
+      src: ['index.js']
+    },
+
     // compress artifacts
     compress: {
       main: {
@@ -106,9 +116,9 @@ module.exports = function(grunt) {
     });
 
     // store some dummy reports, so that grunt plato doesnt complain
-    fs.writeFileSync(__dirname + '/report/complexity/report.history.json', '{}');
-    fs.writeFileSync(__dirname + '/report/complexity/files/test_index_TEST_js/report.history.json', '{}');
-    fs.writeFileSync(__dirname + '/report/complexity/files/index_js/report.history.json', '{}');
+    ['report.history.json', 'files/test_index_TEST_js/report.history.json', 'files/index_js/report.history.json'].forEach(function (file) {
+      fs.writeFileSync(__dirname + '/report/complexity/' + file, '{}');
+    })
 
     // generate code coverage helper file
     var coverageHelper = 'require("blanket")({pattern: require("fs").realpathSync(__dirname + "/../index.js")});';
@@ -122,6 +132,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-mocha-test');
   grunt.loadNpmTasks('grunt-complexity');
+  grunt.loadNpmTasks('grunt-documantix');
   grunt.loadNpmTasks('grunt-plato');
 
   // define runner tasks
