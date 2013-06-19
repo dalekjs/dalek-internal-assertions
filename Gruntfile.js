@@ -138,5 +138,5 @@ module.exports = function(grunt) {
   // define runner tasks
   grunt.registerTask('lint', 'jshint');
   grunt.registerTask('test', ['clean', 'prepare', 'lint', 'mochaTest', 'complexity']);
-  grunt.registerTask('docs', ['clean', 'prepare', 'plato', 'documantix', 'yuidoc', 'compress']);
+  grunt.registerTask('docs', ['clean', 'prepare', 'plato', 'mochaTest', 'documantix', 'yuidoc', 'compress']);
 };
