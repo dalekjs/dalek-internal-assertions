@@ -118,7 +118,7 @@ module.exports = function(grunt) {
     // store some dummy reports, so that grunt plato doesnt complain
     ['report.history.json', 'files/test_index_TEST_js/report.history.json', 'files/index_js/report.history.json'].forEach(function (file) {
       fs.writeFileSync(__dirname + '/report/complexity/' + file, '{}');
-    })
+    });
 
     // generate code coverage helper file
     var coverageHelper = 'require("blanket")({pattern: require("fs").realpathSync(__dirname + "/../index.js")});';
@@ -138,5 +138,5 @@ module.exports = function(grunt) {
   // define runner tasks
   grunt.registerTask('lint', 'jshint');
   grunt.registerTask('test', ['clean', 'prepare', 'lint', 'mochaTest', 'complexity']);
-  grunt.registerTask('docs', ['clean', 'prepare', 'mochaTest', 'plato', 'yuidoc', 'compress']);
+  grunt.registerTask('docs', ['clean', 'prepare', 'plato', 'documantix', 'yuidoc', 'compress']);
 };
