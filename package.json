@@ -2,6 +2,7 @@
   "name": "dalek-internal-assertions",
   "version": "0.0.1",
   "description": "DalekJS inetrnal assertion library",
+  "homepage": "http://dalekjs.com",
   "main": "./index.js",
   "directories": {
     "lib": ".",
