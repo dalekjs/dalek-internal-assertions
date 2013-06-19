@@ -11,12 +11,13 @@ dalek-internal-assertions
 
 ## Ressources
 
-[API Documentation](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
-[Code coverage](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
-[Code complexity](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
-[Contributing](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
-[License](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg) -
-[Homepage](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
+[API Documentation](http://dalekjs.com/package/dalek-internal-assertions/master/api/index.html) -
+[Code coverage](http://dalekjs.com/package/dalek-internal-assertions/master/coverage/index.html) -
+[Code complexity](http://dalekjs.com/package/dalek-internal-assertions/master/complexity/index.html) -
+[Contributing](https://github.com/dalekjs/dalek-internal-assertions/blob/master/CONTRIBUTING.md) -
+[User Docs](http://dalekjs.com/docs/master/assertions.html) -
+[Homepage](http://dalekjs.com) -
+[Twitter](http://twitter.com/dalekjs)
 
 ## Help Is Just A Click Away
 
@@ -57,5 +58,5 @@ Google Groups mailing list.
 
 Copyright (c) 2013 Sebastian Golasch
 
-Distributed under [MIT license](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg).
+Distributed under [MIT license](https://github.com/dalekjs/dalek-internal-assertions/blob/master/LICENSE-MIT.
 
