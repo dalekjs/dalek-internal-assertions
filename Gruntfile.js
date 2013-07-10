@@ -137,6 +137,12 @@ module.exports = function(grunt) {
         fs.mkdirSync(__dirname + '/' + folder);
       }
     });
+
+    // generate code coverage helper file
+    var coverageHelper = 'require("blanket")({pattern: [require("fs").realpathSync(__dirname + "/../index.js")]});';
+    if (!fs.existsSync(__dirname + '/coverage/blanket.js')) {
+      fs.writeFileSync(__dirname + '/coverage/blanket.js', coverageHelper);
+    }
   });
 
   // load 3rd party tasks
