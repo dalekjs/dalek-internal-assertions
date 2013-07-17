@@ -9,6 +9,7 @@ dalek-internal-assertions
 [![devDependency Status](https://david-dm.org/dalekjs/dalek-internal-assertions/dev-status.png)](https://david-dm.org/dalekjs/dalek-internal-assertions#info=devDependencies)
 [![NPM version](https://badge.fury.io/js/dalek-internal-assertions.png)](http://badge.fury.io/js/dalek-internal-assertions)
 
+[![NPM](https://nodei.co/npm/dalek-internal-assertions.png)](https://nodei.co/npm/dalek-internal-assertions/)
 ## Warning
 
 This module is only used internally by [DalekJS](//github.com/dalekjs/dalek).
