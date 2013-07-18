@@ -8,6 +8,7 @@ dalek-internal-assertions
 [![Dependency Status](https://david-dm.org/dalekjs/dalek-internal-assertions.png)](https://david-dm.org/dalekjs/dalek-internal-assertions)
 [![devDependency Status](https://david-dm.org/dalekjs/dalek-internal-assertions/dev-status.png)](https://david-dm.org/dalekjs/dalek-internal-assertions#info=devDependencies)
 [![NPM version](https://badge.fury.io/js/dalek-internal-assertions.png)](http://badge.fury.io/js/dalek-internal-assertions)
+[![Coverage](http://dalekjs.github.io/dalekjs.com/package/dalek-internal-assertions/master/coverage/coverage.png)](http://dalekjs.github.io/dalekjs.com/package/dalek-internal-assertions/master/coverage/index.html)
 [![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
 
 [![NPM](https://nodei.co/npm/dalek-internal-assertions.png)](https://nodei.co/npm/dalek-internal-assertions/)
