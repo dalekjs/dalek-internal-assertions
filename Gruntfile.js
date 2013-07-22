@@ -56,6 +56,7 @@ module.exports = function(grunt) {
         src: '<%= src.test %>'
       }
     },
+
     // code metrics
     complexity: {
       generic: {

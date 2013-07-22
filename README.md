@@ -20,11 +20,12 @@ It provides all assertions used by DalekJS.
 
 ## Ressources
 
-[API Documentation](http://dalekjs.com/package/dalek-internal-assertions/master/api/index.html) -
+[API Docs](http://dalekjs.com/package/dalek-internal-assertions/master/api/index.html) -
+[Trello](https://trello.com/b/Xydy4ucE/dalek-internal-assertions) -
 [Code coverage](http://dalekjs.com/package/dalek-internal-assertions/master/coverage/index.html) -
 [Code complexity](http://dalekjs.com/package/dalek-internal-assertions/master/complexity/index.html) -
 [Contributing](https://github.com/dalekjs/dalek-internal-assertions/blob/master/CONTRIBUTING.md) -
-[User Docs](http://dalekjs.com/docs/master/assertions.html) -
+[User Docs](http://dalekjs.com/docs/assertions.html) -
 [Homepage](http://dalekjs.com) -
 [Twitter](http://twitter.com/dalekjs)
 
