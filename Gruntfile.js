@@ -42,21 +42,20 @@ module.exports = function(grunt) {
       coverage: {
         options: {
           reporter: 'html-cov',
-          quiet: true
+          quiet: true,
+          captureFile: 'report/coverage/index.html'
         },
-        src: '<%= src.test %>',
-        dest: 'report/coverage/index.html'
+        src: '<%= src.test %>'
       },
       jsoncoverage: {
         options: {
           reporter: 'json-cov',
-          quiet: true
+          quiet: true,
+          captureFile: 'report/coverage/coverage.json'
         },
-        src: '<%= src.test %>',
-        dest: 'report/coverage/coverage.json'
+        src: '<%= src.test %>'
       }
     },
-
     // code metrics
     complexity: {
       generic: {
