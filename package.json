@@ -11,7 +11,7 @@
   "dependencies": {
     "node-uuid": "~1.4.0",
     "q": "~0.9.6",
-    "chai": "~1.7.0"
+    "chai": "~1.7.2"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -24,8 +24,7 @@
     "grunt-plato": "~0.2.1",
     "grunt-documantix": "~0.0.3",
     "grunt-include-replace": "~1.1.0",
-    "blanket": "~1.1.5",
-    "chai": "~1.7.2"
+    "blanket": "~1.1.5"
   },
   "scripts": {
     "test": "grunt test"
