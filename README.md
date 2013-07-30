@@ -12,11 +12,19 @@ dalek-internal-assertions
 [![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
 
 [![NPM](https://nodei.co/npm/dalek-internal-assertions.png)](https://nodei.co/npm/dalek-internal-assertions/)
+[![NPM](https://nodei.co/npm-dl/dalek-internal-assertions.png)](https://nodei.co/npm/dalek-internal-assertions/)
 
-## Warning
+## Docs
 
-This module is only used internally by [DalekJS](//github.com/dalekjs/dalek).
-It provides all assertions used by DalekJS.
+This module is used internally by [DalekJS](//github.com/dalekjs/dalek).
+I can not think of a situation where this module is helpful in other ways then
+beeing pulled down & loaded by Dalek. But hey, surprise me.
+
+For Dalek, this is the module that defines all the methods that can check a behaviour
+of the browser, or some element contents. The methods are be part of the test object that dalek injects into the user tests.
+
+If you wonder what assertions are:
+> Assertions check if the assumptions you made about a website are correct. Assetions might check ig the title of a page is as expected, if an element has the expected text, if your mobile website version only displays a certian amount of elements and many more...
 
 ## Ressources
 
@@ -62,7 +70,7 @@ requests that implement the feature).
 other, better channels for seeking assistance, like StackOverflow and the
 Google Groups mailing list.
 
-![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
+![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.png)
 
 ## Legal FooBar (MIT License)
 
