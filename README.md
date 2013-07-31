@@ -14,6 +14,17 @@ dalek-internal-assertions
 [![NPM](https://nodei.co/npm/dalek-internal-assertions.png)](https://nodei.co/npm/dalek-internal-assertions/)
 [![NPM](https://nodei.co/npm-dl/dalek-internal-assertions.png)](https://nodei.co/npm/dalek-internal-assertions/)
 
+## Ressources
+
+[API Docs](http://dalekjs.com/package/dalek-internal-assertions/master/api/index.html) -
+[Trello](https://trello.com/b/Xydy4ucE/dalek-internal-assertions) -
+[Code coverage](http://dalekjs.com/package/dalek-internal-assertions/master/coverage/index.html) -
+[Code complexity](http://dalekjs.com/package/dalek-internal-assertions/master/complexity/index.html) -
+[Contributing](https://github.com/dalekjs/dalek-internal-assertions/blob/master/CONTRIBUTING.md) -
+[User Docs](http://dalekjs.com/docs/assertions.html) -
+[Homepage](http://dalekjs.com) -
+[Twitter](http://twitter.com/dalekjs)
+
 ## Docs
 
 This module is used internally by [DalekJS](//github.com/dalekjs/dalek).
@@ -25,17 +36,6 @@ of the browser, or some element contents. The methods are be part of the test ob
 
 If you wonder what assertions are:
 > Assertions check if the assumptions you made about a website are correct. Assetions might check ig the title of a page is as expected, if an element has the expected text, if your mobile website version only displays a certian amount of elements and many more...
-
-## Ressources
-
-[API Docs](http://dalekjs.com/package/dalek-internal-assertions/master/api/index.html) -
-[Trello](https://trello.com/b/Xydy4ucE/dalek-internal-assertions) -
-[Code coverage](http://dalekjs.com/package/dalek-internal-assertions/master/coverage/index.html) -
-[Code complexity](http://dalekjs.com/package/dalek-internal-assertions/master/complexity/index.html) -
-[Contributing](https://github.com/dalekjs/dalek-internal-assertions/blob/master/CONTRIBUTING.md) -
-[User Docs](http://dalekjs.com/docs/assertions.html) -
-[Homepage](http://dalekjs.com) -
-[Twitter](http://twitter.com/dalekjs)
 
 ## Help Is Just A Click Away
 
