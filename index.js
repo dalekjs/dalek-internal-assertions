@@ -1352,6 +1352,19 @@ Assertions.prototype.lte = function (expected, message) {
   return this.generateTestHelper('lte', '_testLowerThanEqual', false)(expected, message);
 };
 
+/**
+ * Like helper
+ *
+ * @method contain
+ * @param {mixed} expected Value to check
+ * @param {string} message Test message
+ * @chainable
+ */
+
+Assertions.prototype.like = function (expected, message) {
+  return this.generateTestHelper('like', '_caseInsensitiveMatch', false)(expected, message);
+};
+
 // HELPER METHODS
 // --------------
 
@@ -1582,6 +1595,26 @@ Assertions.prototype._testGreaterThanEqual = function (a, b) {
 Assertions.prototype._testLowerThan = function (a, b) {
   try {
     chai.expect(b).to.be.below(a);
+  } catch (e) {
+    return false;
+  }
+
+  return true;
+};
+
+/**
+ * Asserts that 2 string match regardless of case
+ *
+ * @method _caseInsensitiveMatch
+ * @param {string} a Value to test
+ * @param {string} b Value to compare
+ * @return {bool} testresult
+ * @private
+ */
+
+Assertions.prototype._caseInsensitiveMatch = function (a, b) {
+  try {
+    chai.expect(b.toLowerCase()).to.eql(a.toLowerCase());
   } catch (e) {
     return false;
   }
