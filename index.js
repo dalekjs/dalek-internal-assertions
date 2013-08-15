@@ -1353,16 +1353,16 @@ Assertions.prototype.lte = function (expected, message) {
 };
 
 /**
- * Like helper
+ * Equals case insensitive helper
  *
- * @method contain
+ * @method equalsCaseInsensitive
  * @param {mixed} expected Value to check
  * @param {string} message Test message
  * @chainable
  */
 
-Assertions.prototype.like = function (expected, message) {
-  return this.generateTestHelper('like', '_caseInsensitiveMatch', false)(expected, message);
+Assertions.prototype.equalsCaseInsensitive = function (expected, message) {
+  return this.generateTestHelper('equalsCaseInsensitive', '_caseInsensitiveMatch', false)(expected, message);
 };
 
 // HELPER METHODS
@@ -1614,7 +1614,11 @@ Assertions.prototype._testLowerThan = function (a, b) {
 
 Assertions.prototype._caseInsensitiveMatch = function (a, b) {
   try {
-    chai.expect(b.toLowerCase()).to.eql(a.toLowerCase());
+    if(a.toLowerCase && b.toLowerCase) {
+      chai.expect(b.toLowerCase()).to.eql(a.toLowerCase());
+    } else {
+        return false;
+    }
   } catch (e) {
     return false;
   }
