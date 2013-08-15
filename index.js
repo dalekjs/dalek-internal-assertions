@@ -1352,6 +1352,19 @@ Assertions.prototype.lte = function (expected, message) {
   return this.generateTestHelper('lte', '_testLowerThanEqual', false)(expected, message);
 };
 
+/**
+ * Match helper
+ *
+ * @method match
+ * @param {string} expected Regex to match on
+ * @param {string} message Test message
+ * @chainable
+ */
+
+Assertions.prototype.match = function (expected, message) {
+  return this.generateTestHelper('match', '_match', false)(expected, message);
+};
+
 // HELPER METHODS
 // --------------
 
@@ -1627,4 +1640,24 @@ Assertions.prototype._testTruthy = function (a) {
 
 Assertions.prototype._testFalsy = function (a) {
   return a === 'false' || a === false;
+};
+
+/**
+ * Assert a given value matches a regex
+ *
+ * @method _contain
+ * @param {mixed} a Value to test
+ * @param {string} b Value to compare
+ * @return {bool} testresult
+ * @private
+ */
+
+Assertions.prototype._match = function (a, b) {
+  try {
+    chai.expect(b).to.match(a);
+  } catch (e) {
+    return false;
+  }
+
+  return true;
 };
