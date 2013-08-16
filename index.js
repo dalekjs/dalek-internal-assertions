@@ -1363,7 +1363,7 @@ Assertions.prototype.lte = function (expected, message) {
 
 Assertions.prototype.contain = function (expected, message) {
   return this.generateTestHelper('contain', '_contain', false)(expected, message);
-}
+};
 
 /**
  * Match helper
