@@ -1403,6 +1403,10 @@ Assertions.prototype._generateCallbackAssertion = function (key, type, test, has
         return false;
       }
 
+      if (typeof opts.expected === 'function') {
+        opts.expected = opts.expected();
+      }
+
       var testResult = test(data.value, opts.expected);
 
       this.reporter.emit('report:assertion', {
