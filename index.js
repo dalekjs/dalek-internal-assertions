@@ -319,6 +319,8 @@ Assertions.prototype.numberOfElements = function (selector, expected, message) {
  *     .is.not(5, 'There are more or less than 5 teasers visible')
  * ```
  *
+ * > NOTE: Buggy on all browsers
+ * 
  * @api
  * @method numberOfVisibleElements
  * @param {string} selector Selector that matches the elements to test
@@ -845,6 +847,9 @@ Assertions.prototype.doesntExist = function (selector, message) {
  *    .done();
  * ```
  *
+ *
+ * > NOTE: Buggy on all browsers
+ * 
  * @api
  * @method notVisible
  * @param {string} selector Selector that matches the elements to test
@@ -881,6 +886,8 @@ Assertions.prototype.notVisible = function (selector, message) {
  *    .done();
  * ```
  *
+ * > NOTE: Buggy on all browsers
+ * 
  * @api
  * @method visible
  * @param {string} selector Selector that matches the elements to test
@@ -916,7 +923,7 @@ Assertions.prototype.visible = function (selector, message) {
  *    .assert.doesntHaveText('h1', 'This page is a Dalek sandbox', 'It´s a sandbox!')
  *    .done();
  * ```
- *
+ * 
  * @api
  * @method doesntHaveText
  * @param {string} selector Selector that matches the elements to test
@@ -954,6 +961,8 @@ Assertions.prototype.doesntHaveText = function (selector, expected, message) {
  *    .done();
  * ```
  *
+ * > NOTE: Does not work in Firefox & PhantomJS
+ * 
  * @api
  * @method dialogDoesntHaveText
  * @param {string} expected Expected test result
@@ -1053,6 +1062,9 @@ Assertions.prototype.text = function (selector, expected, message) {
  *    .done();
  * ```
  *
+ *
+ * > NOTE: Does not work in Firefox & PhantomJS
+ * 
  * @api
  * @method dialogText
  * @param {string} expected Expected testresult
