@@ -1,6 +1,6 @@
 {
   "name": "dalek-internal-assertions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "DalekJS internal assertion library",
   "homepage": "http://dalekjs.com",
   "main": "index.js",
